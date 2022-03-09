@@ -1,15 +1,3 @@
-# SemanticGAN
-This is the official code for:
-
-#### Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization
-
-[Daiqing Li](https://scholar.google.ca/citations?user=8q2ISMIAAAAJ&hl=en), [Junlin Yang](https://scholar.google.com/citations?user=QYkscc4AAAAJ&hl=en), [Karsten Kreis](https://scholar.google.de/citations?user=rFd-DiAAAAAJ&hl=de), [Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/), [Sanja Fidler](http://www.cs.toronto.edu/~fidler/)
-
-CVPR 2021 **[[Paper](https://arxiv.org/abs/2104.05833)]  [[Supp](https://nv-tlabs.github.io/semanticGAN/resources/SemanticGAN_supp.pdf)] [[Page](https://nv-tlabs.github.io/semanticGAN/)]** 
-
-<img src = "./figs/method.png" width="100%"/>
-
-
 ## Requirements
 - Python 3.6 or 3.7 are supported.
 - Pytorch 1.4.0 + is recommended.
@@ -100,19 +88,6 @@ python inference.py \
 Visualization of different optimization steps
 
 ![img](./figs/face-parts-opt-steps.png)
-
-
-## Citation 
-
-Please cite the following paper if you used the code in this repository.
-
-```
-@inproceedings{semanticGAN, 
-title={Semantic Segmentation with Generative Models: Semi-Supervised Learning and Strong Out-of-Domain Generalization}, 
-booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)}, 
-author={Li, Daiqing and Yang, Junlin and Kreis, Karsten and Torralba, Antonio and Fidler, Sanja}, 
-year={2021}, 
-}
 ```
 
 
