@@ -25,9 +25,12 @@ import torch
 import torch.nn.functional as F
 from torch.utils.data import DataLoader, ConcatDataset
 
+import sys
+sys.path.insert(1, "/content/semantic-transgan")
+
 import argparse
 from utils import inception_utils
-from dataloader import (CelebAMaskDataset)
+from dataloader.dataset import CelebAMaskDataset
 import pickle
 
 @torch.no_grad()

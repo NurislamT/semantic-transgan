@@ -25,7 +25,7 @@ import math
 import random
 import os
 import sys
-sys.path.append('..')
+sys.path.insert(1, "/content/semantic-transgan")
 
 import numpy as np
 import torch
